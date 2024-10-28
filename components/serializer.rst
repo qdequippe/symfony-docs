@@ -1205,6 +1205,8 @@ Option                          Description                                     
                                 ``<![CDATA[...]]>``
 ``cdata_wrapping_pattern``      A regular expression pattern to determine if a     ``/[<>&]/``
                                 value should be wrapped in a CDATA section
+``ignore_empty_attributes``     If set to true, ignores all attributes with empty  ``false``
+                                values in the generated XML
 ==============================  =================================================  ==========================
 
 .. versionadded:: 7.1
