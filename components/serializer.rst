@@ -1209,6 +1209,10 @@ Option                          Description                                     
                                 values in the generated XML
 ==============================  =================================================  ==========================
 
+.. versionadded:: 7.2
+
+    The ``ignore_empty_attributes`` option was introduced in Symfony 7.2.
+
 .. versionadded:: 7.1
 
     The ``cdata_wrapping_pattern`` option was introduced in Symfony 7.1.
